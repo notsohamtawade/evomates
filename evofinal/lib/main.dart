@@ -2,7 +2,7 @@ import 'package:evofinal/ev_station_info.dart';
 import 'package:evofinal/profile.dart';
 import 'package:flutter/material.dart';
 import 'loginpage.dart';
-
+import 'ev_map_screen.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: ProfilePage(), // Set the initial screen to LoginPage
+      home:  LoginPage(), // Set the initial screen to LoginPage
     );
   }
 }
